@@ -4,7 +4,8 @@ import PackageDescription
 let package = Package(
     name: "JXPageControl",
     platforms: [
-        .iOS(.v8)
+        .iOS(.v8),
+        .tvOS("15.0")
     ],
     products: [
         .library(
